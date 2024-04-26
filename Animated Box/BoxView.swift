@@ -47,7 +47,8 @@ class BoxView: UIView {
         backgroundColor = .viewBackground
         
         containerView.pin
-            .center()
+            .hCenter()
+            .vCenter(-5%)
             .size(168.0.scaled)
         
         containerView.makeRound()
