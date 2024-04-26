@@ -11,5 +11,11 @@ class BoxView: UIView {
     
     override func layoutSubviews() {
         super.layoutSubviews()
+        
+        layout()
+    }
+    
+    private func layout() {
+        backgroundColor 
     }
 }

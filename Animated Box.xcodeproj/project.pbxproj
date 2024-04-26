@@ -14,6 +14,8 @@
 		929ACE602BDC2AB400190D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929ACE5E2BDC2AB400190D4F /* LaunchScreen.storyboard */; };
 		929ACE682BDC2B8700190D4F /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE672BDC2B8700190D4F /* BoxView.swift */; };
 		929ACE6B2BDC49CA00190D4F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE6A2BDC49CA00190D4F /* Double.swift */; };
+		929ACE6D2BDC4B6E00190D4F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929ACE6C2BDC4B6E00190D4F /* Colors.xcassets */; };
+		929ACE6F2BDC4CD000190D4F /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE6E2BDC4CD000190D4F /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		929ACE612BDC2AB400190D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		929ACE672BDC2B8700190D4F /* BoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
 		929ACE6A2BDC49CA00190D4F /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		929ACE6C2BDC4B6E00190D4F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		929ACE6E2BDC4CD000190D4F /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 				929ACE552BDC2AB100190D4F /* SceneDelegate.swift */,
 				929ACE572BDC2AB100190D4F /* BoxViewController.swift */,
 				929ACE672BDC2B8700190D4F /* BoxView.swift */,
+				929ACE6C2BDC4B6E00190D4F /* Colors.xcassets */,
 				929ACE5C2BDC2AB400190D4F /* Assets.xcassets */,
 				929ACE5E2BDC2AB400190D4F /* LaunchScreen.storyboard */,
 				929ACE612BDC2AB400190D4F /* Info.plist */,
@@ -74,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				929ACE6A2BDC49CA00190D4F /* Double.swift */,
+				929ACE6E2BDC4CD000190D4F /* UIColor.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -136,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				929ACE6D2BDC4B6E00190D4F /* Colors.xcassets in Resources */,
 				929ACE602BDC2AB400190D4F /* LaunchScreen.storyboard in Resources */,
 				929ACE5D2BDC2AB400190D4F /* Assets.xcassets in Resources */,
 			);
@@ -149,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				929ACE682BDC2B8700190D4F /* BoxView.swift in Sources */,
+				929ACE6F2BDC4CD000190D4F /* UIColor.swift in Sources */,
 				929ACE582BDC2AB100190D4F /* BoxViewController.swift in Sources */,
 				929ACE542BDC2AB100190D4F /* AppDelegate.swift in Sources */,
 				929ACE562BDC2AB100190D4F /* SceneDelegate.swift in Sources */,
