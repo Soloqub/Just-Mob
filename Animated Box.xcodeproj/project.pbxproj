@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		929ACE542BDC2AB100190D4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE532BDC2AB100190D4F /* AppDelegate.swift */; };
-		929ACE562BDC2AB100190D4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE552BDC2AB100190D4F /* SceneDelegate.swift */; };
 		929ACE582BDC2AB100190D4F /* BoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE572BDC2AB100190D4F /* BoxViewController.swift */; };
 		929ACE5D2BDC2AB400190D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929ACE5C2BDC2AB400190D4F /* Assets.xcassets */; };
 		929ACE602BDC2AB400190D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929ACE5E2BDC2AB400190D4F /* LaunchScreen.storyboard */; };
@@ -25,7 +24,6 @@
 /* Begin PBXFileReference section */
 		929ACE502BDC2AB100190D4F /* Animated Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		929ACE532BDC2AB100190D4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		929ACE552BDC2AB100190D4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		929ACE572BDC2AB100190D4F /* BoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxViewController.swift; sourceTree = "<group>"; };
 		929ACE5C2BDC2AB400190D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		929ACE5F2BDC2AB400190D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 				929ACE792BDC5F0500190D4F /* Helpers */,
 				929ACE692BDC496B00190D4F /* Extensions */,
 				929ACE532BDC2AB100190D4F /* AppDelegate.swift */,
-				929ACE552BDC2AB100190D4F /* SceneDelegate.swift */,
 				929ACE572BDC2AB100190D4F /* BoxViewController.swift */,
 				929ACE672BDC2B8700190D4F /* BoxView.swift */,
 				929ACE6C2BDC4B6E00190D4F /* Colors.xcassets */,
@@ -187,7 +184,6 @@
 				929ACE582BDC2AB100190D4F /* BoxViewController.swift in Sources */,
 				929ACE742BDC552A00190D4F /* UIView.swift in Sources */,
 				929ACE542BDC2AB100190D4F /* AppDelegate.swift in Sources */,
-				929ACE562BDC2AB100190D4F /* SceneDelegate.swift in Sources */,
 				929ACE6B2BDC49CA00190D4F /* Double.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
