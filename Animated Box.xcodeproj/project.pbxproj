@@ -13,6 +13,7 @@
 		929ACE5D2BDC2AB400190D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929ACE5C2BDC2AB400190D4F /* Assets.xcassets */; };
 		929ACE602BDC2AB400190D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929ACE5E2BDC2AB400190D4F /* LaunchScreen.storyboard */; };
 		929ACE682BDC2B8700190D4F /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE672BDC2B8700190D4F /* BoxView.swift */; };
+		929ACE6B2BDC49CA00190D4F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE6A2BDC49CA00190D4F /* Double.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		929ACE5F2BDC2AB400190D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		929ACE612BDC2AB400190D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		929ACE672BDC2B8700190D4F /* BoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
+		929ACE6A2BDC49CA00190D4F /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		929ACE522BDC2AB100190D4F /* Animated Box */ = {
 			isa = PBXGroup;
 			children = (
+				929ACE692BDC496B00190D4F /* Extensions */,
 				929ACE532BDC2AB100190D4F /* AppDelegate.swift */,
 				929ACE552BDC2AB100190D4F /* SceneDelegate.swift */,
 				929ACE572BDC2AB100190D4F /* BoxViewController.swift */,
@@ -65,6 +68,14 @@
 				929ACE612BDC2AB400190D4F /* Info.plist */,
 			);
 			path = "Animated Box";
+			sourceTree = "<group>";
+		};
+		929ACE692BDC496B00190D4F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				929ACE6A2BDC49CA00190D4F /* Double.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				929ACE582BDC2AB100190D4F /* BoxViewController.swift in Sources */,
 				929ACE542BDC2AB100190D4F /* AppDelegate.swift in Sources */,
 				929ACE562BDC2AB100190D4F /* SceneDelegate.swift in Sources */,
+				929ACE6B2BDC49CA00190D4F /* Double.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
