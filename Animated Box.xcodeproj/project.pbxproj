@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9211A64E2BDD738300BF7112 /* Animation - 1714237087010.json in Resources */ = {isa = PBXBuildFile; fileRef = 9211A64D2BDD738300BF7112 /* Animation - 1714237087010.json */; };
 		929ACE542BDC2AB100190D4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE532BDC2AB100190D4F /* AppDelegate.swift */; };
 		929ACE582BDC2AB100190D4F /* BoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE572BDC2AB100190D4F /* BoxViewController.swift */; };
 		929ACE5D2BDC2AB400190D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929ACE5C2BDC2AB400190D4F /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9211A64D2BDD738300BF7112 /* Animation - 1714237087010.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1714237087010.json"; sourceTree = "<group>"; };
 		929ACE502BDC2AB100190D4F /* Animated Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		929ACE532BDC2AB100190D4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		929ACE572BDC2AB100190D4F /* BoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				929ACE532BDC2AB100190D4F /* AppDelegate.swift */,
 				929ACE572BDC2AB100190D4F /* BoxViewController.swift */,
 				929ACE672BDC2B8700190D4F /* BoxView.swift */,
+				9211A64D2BDD738300BF7112 /* Animation - 1714237087010.json */,
 				929ACE6C2BDC4B6E00190D4F /* Colors.xcassets */,
 				929ACE5C2BDC2AB400190D4F /* Assets.xcassets */,
 				929ACE5E2BDC2AB400190D4F /* LaunchScreen.storyboard */,
@@ -164,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9211A64E2BDD738300BF7112 /* Animation - 1714237087010.json in Resources */,
 				929ACE6D2BDC4B6E00190D4F /* Colors.xcassets in Resources */,
 				929ACE602BDC2AB400190D4F /* LaunchScreen.storyboard in Resources */,
 				929ACE5D2BDC2AB400190D4F /* Assets.xcassets in Resources */,

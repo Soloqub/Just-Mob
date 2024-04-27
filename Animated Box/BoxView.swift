@@ -25,6 +25,7 @@ class BoxView: UIView {
         return view
     }()
     
+    
     lazy var timeLabel: UILabel = {
         let view = UILabel(frame: .zero)
         view.text = "00:25:14"
@@ -41,11 +42,12 @@ class BoxView: UIView {
         super.layoutSubviews()
         
         layout()
+        startAnimations()
     }
     
     private func layout() {
         backgroundColor = .viewBackground
-        
+                
         containerView.pin
             .hCenter()
             .vCenter(-5%)
@@ -57,10 +59,14 @@ class BoxView: UIView {
             .hCenter()
             .top(10.0.scaled)
             .size(CGSize(width: 68.0.scaled, height: 85.0.scaled))
-        
+                
         timeLabel.pin.below(of: boxImageView)
             .marginTop(17.0.scaled)
             .hCenter()
             .sizeToFit()
+    }
+    
+    private func startAnimations() {
+        boxImageView.shakeAnimation()
     }
 }
