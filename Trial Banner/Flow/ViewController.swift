@@ -1,8 +1,8 @@
 //
-//  BoxViewController.swift
-//  Animated Box
+//  ViewController.swift
+//  Trial Banner
 //
-//  Created by Денис Львович on 26.04.2024.
+//  Created by Денис Львович on 28.04.2024.
 //
 
 import UIKit
@@ -17,7 +17,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         self.view = mainView
-        
-        mainView.boxView.startTimer(secondsLeft: 1 * 3_600 + 15 * 60 + 20)
     }
 }
+

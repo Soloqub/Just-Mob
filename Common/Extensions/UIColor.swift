@@ -16,3 +16,9 @@ extension UIColor {
         UIColor(named: "boxBackground")!
     }
 }
+
+extension UIColor {
+    static var sublineTextColor: UIColor {
+        UIColor(white: 1.0, alpha: 0.5)
+    }
+}
