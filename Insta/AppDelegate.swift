@@ -1,15 +1,15 @@
 //
 //  AppDelegate.swift
-//  Animated Box
+//  Insta
 //
-//  Created by Денис Львович on 26.04.2024.
+//  Created by Денис Львович on 28.04.2024.
 //
 
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

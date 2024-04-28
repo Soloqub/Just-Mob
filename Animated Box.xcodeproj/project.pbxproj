@@ -27,6 +27,11 @@
 		92516E682BDED07600C8CB6D /* CommonAsserts.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92516E672BDED07600C8CB6D /* CommonAsserts.xcassets */; };
 		92516E692BDED0B400C8CB6D /* CommonAsserts.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92516E672BDED07600C8CB6D /* CommonAsserts.xcassets */; };
 		92516E6A2BDED17F00C8CB6D /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92516E492BDEC83D00C8CB6D /* UILabel.swift */; };
+		92516E722BDED33C00C8CB6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92516E712BDED33C00C8CB6D /* AppDelegate.swift */; };
+		92516E762BDED33C00C8CB6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92516E752BDED33C00C8CB6D /* ViewController.swift */; };
+		92516E7B2BDED33F00C8CB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92516E7A2BDED33F00C8CB6D /* Assets.xcassets */; };
+		92516E7E2BDED33F00C8CB6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92516E7C2BDED33F00C8CB6D /* LaunchScreen.storyboard */; };
+		92516E852BDED46500C8CB6D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92516E842BDED46500C8CB6D /* View.swift */; };
 		929ACE542BDC2AB100190D4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE532BDC2AB100190D4F /* AppDelegate.swift */; };
 		929ACE582BDC2AB100190D4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE572BDC2AB100190D4F /* ViewController.swift */; };
 		929ACE5D2BDC2AB400190D4F /* BoxAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929ACE5C2BDC2AB400190D4F /* BoxAssets.xcassets */; };
@@ -54,6 +59,13 @@
 		92516E532BDEC85500C8CB6D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92516E542BDEC85500C8CB6D /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		92516E672BDED07600C8CB6D /* CommonAsserts.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CommonAsserts.xcassets; sourceTree = "<group>"; };
+		92516E6F2BDED33C00C8CB6D /* Insta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92516E712BDED33C00C8CB6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92516E752BDED33C00C8CB6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92516E7A2BDED33F00C8CB6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92516E7D2BDED33F00C8CB6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92516E7F2BDED33F00C8CB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92516E842BDED46500C8CB6D /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		929ACE502BDC2AB100190D4F /* Animated Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		929ACE532BDC2AB100190D4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		929ACE572BDC2AB100190D4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +89,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				92516E582BDEC91900C8CB6D /* PinLayout in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92516E6C2BDED33C00C8CB6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,12 +175,34 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		92516E702BDED33C00C8CB6D /* Insta */ = {
+			isa = PBXGroup;
+			children = (
+				92516E712BDED33C00C8CB6D /* AppDelegate.swift */,
+				92516E832BDED3E600C8CB6D /* Flow */,
+				92516E7A2BDED33F00C8CB6D /* Assets.xcassets */,
+				92516E7C2BDED33F00C8CB6D /* LaunchScreen.storyboard */,
+				92516E7F2BDED33F00C8CB6D /* Info.plist */,
+			);
+			path = Insta;
+			sourceTree = "<group>";
+		};
+		92516E832BDED3E600C8CB6D /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				92516E752BDED33C00C8CB6D /* ViewController.swift */,
+				92516E842BDED46500C8CB6D /* View.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
 		929ACE472BDC2AB100190D4F = {
 			isa = PBXGroup;
 			children = (
 				92516E642BDECD9000C8CB6D /* Common */,
 				929ACE522BDC2AB100190D4F /* Animated Box */,
 				92516E2D2BDEC76300C8CB6D /* Trial Banner */,
+				92516E702BDED33C00C8CB6D /* Insta */,
 				929ACE512BDC2AB100190D4F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -171,6 +212,7 @@
 			children = (
 				929ACE502BDC2AB100190D4F /* Animated Box.app */,
 				92516E2C2BDEC76300C8CB6D /* Trial Banner.app */,
+				92516E6F2BDED33C00C8CB6D /* Insta.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -257,6 +299,23 @@
 			productReference = 92516E2C2BDEC76300C8CB6D /* Trial Banner.app */;
 			productType = "com.apple.product-type.application";
 		};
+		92516E6E2BDED33C00C8CB6D /* Insta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92516E802BDED33F00C8CB6D /* Build configuration list for PBXNativeTarget "Insta" */;
+			buildPhases = (
+				92516E6B2BDED33C00C8CB6D /* Sources */,
+				92516E6C2BDED33C00C8CB6D /* Frameworks */,
+				92516E6D2BDED33C00C8CB6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Insta;
+			productName = Insta;
+			productReference = 92516E6F2BDED33C00C8CB6D /* Insta.app */;
+			productType = "com.apple.product-type.application";
+		};
 		929ACE4F2BDC2AB100190D4F /* Animated Box */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 929ACE642BDC2AB400190D4F /* Build configuration list for PBXNativeTarget "Animated Box" */;
@@ -291,6 +350,9 @@
 						CreatedOnToolsVersion = 15.2;
 						LastSwiftMigration = 1520;
 					};
+					92516E6E2BDED33C00C8CB6D = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					929ACE4F2BDC2AB100190D4F = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -314,6 +376,7 @@
 			targets = (
 				929ACE4F2BDC2AB100190D4F /* Animated Box */,
 				92516E2B2BDEC76300C8CB6D /* Trial Banner */,
+				92516E6E2BDED33C00C8CB6D /* Insta */,
 			);
 		};
 /* End PBXProject section */
@@ -327,6 +390,15 @@
 				92516E3B2BDEC76600C8CB6D /* LaunchScreen.storyboard in Resources */,
 				92516E5D2BDECC6B00C8CB6D /* Colors.xcassets in Resources */,
 				92516E382BDEC76600C8CB6D /* BannerAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92516E6D2BDED33C00C8CB6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92516E7E2BDED33F00C8CB6D /* LaunchScreen.storyboard in Resources */,
+				92516E7B2BDED33F00C8CB6D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +435,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92516E6B2BDED33C00C8CB6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92516E762BDED33C00C8CB6D /* ViewController.swift in Sources */,
+				92516E722BDED33C00C8CB6D /* AppDelegate.swift in Sources */,
+				92516E852BDED46500C8CB6D /* View.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		929ACE4C2BDC2AB100190D4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -389,6 +471,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				92516E3A2BDEC76600C8CB6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		92516E7C2BDED33F00C8CB6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92516E7D2BDED33F00C8CB6D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -456,6 +546,62 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.denis.justmob.Trial-Banner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92516E812BDED33F00C8CB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6G74A59K6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Insta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.denis.justmob.Insta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92516E822BDED33F00C8CB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6G74A59K6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Insta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.denis.justmob.Insta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -646,6 +792,15 @@
 			buildConfigurations = (
 				92516E3E2BDEC76600C8CB6D /* Debug */,
 				92516E3F2BDEC76600C8CB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92516E802BDED33F00C8CB6D /* Build configuration list for PBXNativeTarget "Insta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92516E812BDED33F00C8CB6D /* Debug */,
+				92516E822BDED33F00C8CB6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
