@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             self.window = window
         }
         
-        window.rootViewController = BoxViewController()
+        window.rootViewController = ViewController()
         window.makeKeyAndVisible()
 
         return true

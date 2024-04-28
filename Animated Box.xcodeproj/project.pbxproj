@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9211A64E2BDD738300BF7112 /* Animation - 1714237087010.json in Resources */ = {isa = PBXBuildFile; fileRef = 9211A64D2BDD738300BF7112 /* Animation - 1714237087010.json */; };
 		929ACE542BDC2AB100190D4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE532BDC2AB100190D4F /* AppDelegate.swift */; };
-		929ACE582BDC2AB100190D4F /* BoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE572BDC2AB100190D4F /* BoxViewController.swift */; };
+		929ACE582BDC2AB100190D4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE572BDC2AB100190D4F /* ViewController.swift */; };
 		929ACE5D2BDC2AB400190D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929ACE5C2BDC2AB400190D4F /* Assets.xcassets */; };
 		929ACE602BDC2AB400190D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929ACE5E2BDC2AB400190D4F /* LaunchScreen.storyboard */; };
-		929ACE682BDC2B8700190D4F /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE672BDC2B8700190D4F /* BoxView.swift */; };
+		929ACE682BDC2B8700190D4F /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE672BDC2B8700190D4F /* View.swift */; };
 		929ACE6B2BDC49CA00190D4F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE6A2BDC49CA00190D4F /* Double.swift */; };
 		929ACE6D2BDC4B6E00190D4F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929ACE6C2BDC4B6E00190D4F /* Colors.xcassets */; };
 		929ACE6F2BDC4CD000190D4F /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE6E2BDC4CD000190D4F /* UIColor.swift */; };
@@ -20,23 +19,26 @@
 		929ACE742BDC552A00190D4F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE732BDC552A00190D4F /* UIView.swift */; };
 		929ACE762BDC5A5D00190D4F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE752BDC5A5D00190D4F /* UIImage.swift */; };
 		929ACE7B2BDC5F2400190D4F /* FontBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE7A2BDC5F2400190D4F /* FontBuilder.swift */; };
+		92E0E7622BDE6DCC0013EF8A /* BoxTimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E0E7612BDE6DCC0013EF8A /* BoxTimerManager.swift */; };
+		92E82E4D2BDE8DFB00FAACEB /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E82E4C2BDE8DFB00FAACEB /* BoxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9211A64D2BDD738300BF7112 /* Animation - 1714237087010.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1714237087010.json"; sourceTree = "<group>"; };
 		929ACE502BDC2AB100190D4F /* Animated Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		929ACE532BDC2AB100190D4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		929ACE572BDC2AB100190D4F /* BoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxViewController.swift; sourceTree = "<group>"; };
+		929ACE572BDC2AB100190D4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		929ACE5C2BDC2AB400190D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		929ACE5F2BDC2AB400190D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		929ACE612BDC2AB400190D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		929ACE672BDC2B8700190D4F /* BoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
+		929ACE672BDC2B8700190D4F /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		929ACE6A2BDC49CA00190D4F /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		929ACE6C2BDC4B6E00190D4F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		929ACE6E2BDC4CD000190D4F /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		929ACE732BDC552A00190D4F /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		929ACE752BDC5A5D00190D4F /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		929ACE7A2BDC5F2400190D4F /* FontBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontBuilder.swift; sourceTree = "<group>"; };
+		92E0E7612BDE6DCC0013EF8A /* BoxTimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxTimerManager.swift; sourceTree = "<group>"; };
+		92E82E4C2BDE8DFB00FAACEB /* BoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,12 +72,11 @@
 		929ACE522BDC2AB100190D4F /* Animated Box */ = {
 			isa = PBXGroup;
 			children = (
+				929ACE532BDC2AB100190D4F /* AppDelegate.swift */,
 				929ACE792BDC5F0500190D4F /* Helpers */,
 				929ACE692BDC496B00190D4F /* Extensions */,
-				929ACE532BDC2AB100190D4F /* AppDelegate.swift */,
-				929ACE572BDC2AB100190D4F /* BoxViewController.swift */,
-				929ACE672BDC2B8700190D4F /* BoxView.swift */,
-				9211A64D2BDD738300BF7112 /* Animation - 1714237087010.json */,
+				92E82E4E2BDE8E4A00FAACEB /* UI Elements */,
+				92E0E7602BDE6D8A0013EF8A /* Flow */,
 				929ACE6C2BDC4B6E00190D4F /* Colors.xcassets */,
 				929ACE5C2BDC2AB400190D4F /* Assets.xcassets */,
 				929ACE5E2BDC2AB400190D4F /* LaunchScreen.storyboard */,
@@ -101,6 +102,32 @@
 				929ACE7A2BDC5F2400190D4F /* FontBuilder.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		92E0E7602BDE6D8A0013EF8A /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				929ACE672BDC2B8700190D4F /* View.swift */,
+				929ACE572BDC2AB100190D4F /* ViewController.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		92E82E4E2BDE8E4A00FAACEB /* UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				92E82E4F2BDE8E7200FAACEB /* Timer Box */,
+			);
+			path = "UI Elements";
+			sourceTree = "<group>";
+		};
+		92E82E4F2BDE8E7200FAACEB /* Timer Box */ = {
+			isa = PBXGroup;
+			children = (
+				92E0E7612BDE6DCC0013EF8A /* BoxTimerManager.swift */,
+				92E82E4C2BDE8DFB00FAACEB /* BoxView.swift */,
+			);
+			path = "Timer Box";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,7 +194,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9211A64E2BDD738300BF7112 /* Animation - 1714237087010.json in Resources */,
 				929ACE6D2BDC4B6E00190D4F /* Colors.xcassets in Resources */,
 				929ACE602BDC2AB400190D4F /* LaunchScreen.storyboard in Resources */,
 				929ACE5D2BDC2AB400190D4F /* Assets.xcassets in Resources */,
@@ -181,12 +207,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				929ACE682BDC2B8700190D4F /* BoxView.swift in Sources */,
+				929ACE682BDC2B8700190D4F /* View.swift in Sources */,
 				929ACE762BDC5A5D00190D4F /* UIImage.swift in Sources */,
+				92E82E4D2BDE8DFB00FAACEB /* BoxView.swift in Sources */,
 				929ACE7B2BDC5F2400190D4F /* FontBuilder.swift in Sources */,
 				929ACE6F2BDC4CD000190D4F /* UIColor.swift in Sources */,
-				929ACE582BDC2AB100190D4F /* BoxViewController.swift in Sources */,
+				929ACE582BDC2AB100190D4F /* ViewController.swift in Sources */,
 				929ACE742BDC552A00190D4F /* UIView.swift in Sources */,
+				92E0E7622BDE6DCC0013EF8A /* BoxTimerManager.swift in Sources */,
 				929ACE542BDC2AB100190D4F /* AppDelegate.swift in Sources */,
 				929ACE6B2BDC49CA00190D4F /* Double.swift in Sources */,
 			);
@@ -339,7 +367,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -367,7 +395,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
