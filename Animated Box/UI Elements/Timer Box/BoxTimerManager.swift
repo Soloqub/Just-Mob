@@ -11,7 +11,12 @@ class BoxTimerManager {
     private var countdownTimer: Timer?
     private var timeLeft: Int {
         didSet {
-            updated(timeLeft)
+            if timeLeft >= 0 {
+                updated(timeLeft)
+            } else {
+                timerDidFinish()
+                countdownTimer?.invalidate()
+            }
         }
     }
     private var updated: (_ secondsLeft: Int) -> Void
