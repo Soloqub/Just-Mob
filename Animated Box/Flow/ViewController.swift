@@ -7,16 +7,18 @@
 
 import UIKit
 
-class BoxViewController: UIViewController {
+class ViewController: UIViewController {
     
-    lazy var mainView: BoxView = {
-        BoxView(frame: .zero)
+    lazy var mainView: View = {
+        View(frame: .zero)
     }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.view = mainView
+        
+        mainView.boxView.startTimer(secondsLeft: 1 * 3_600 + 15 * 60 + 20)
     }
 }
 
