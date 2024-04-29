@@ -8,7 +8,7 @@
 import UIKit
 import PinLayout
 
-class BannerView: UIView {
+final class BannerView: UIView {
     
     lazy var imagesContainerView: UIView = {
         let view = UIView(frame: .zero)

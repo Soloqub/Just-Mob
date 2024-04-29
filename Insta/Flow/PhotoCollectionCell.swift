@@ -8,7 +8,8 @@
 import UIKit
 import PinLayout
 
-class PhotoCollectionCell: UICollectionViewCell {
+final class PhotoCollectionCell: UICollectionViewCell {
+    
     static let reuseIdentifier = "PhotoCollectionCell"
     
     private lazy var photoView: UIImageView = {

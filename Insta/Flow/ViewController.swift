@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
     
     private let imagesProvider = ImagesProvider()
     private let cellTemplate = PhotoCollectionCell()
@@ -75,7 +75,7 @@ final class TagsProvider {
 }
 
 
-class FlowLayout: UICollectionViewFlowLayout {
+final class FlowLayout: UICollectionViewFlowLayout {
 
     required init(minimumInteritemSpacing: CGFloat = 0, minimumLineSpacing: CGFloat = 0, sectionInset: UIEdgeInsets = .zero) {
         super.init()

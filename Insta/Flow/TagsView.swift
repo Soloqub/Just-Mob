@@ -8,7 +8,7 @@
 import UIKit
 import FlexLayout
 
-class TagsView: UIScrollView {
+final class TagsView: UIScrollView {
         
     private func tagLabel(text: String) -> UILabel {
         let view = UILabel(frame: .zero)
