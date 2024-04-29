@@ -55,6 +55,7 @@ final class View: UIView {
         
         view.contentInsetAdjustmentBehavior = .never
         view.backgroundColor = .black
+        view.showsVerticalScrollIndicator = false
         
         self.addSubview(view)
         return view
@@ -76,7 +77,7 @@ final class View: UIView {
         
         animatedBox.pin
             .right(16.0.scaled)
-            .bottom(pin.safeArea.bottom + 41.0.scaled)
+            .bottom(41.0.scaled)
             .size(88.0.scaled)
         
         tagsCaptionLabel.pin
@@ -95,7 +96,7 @@ final class View: UIView {
         collectionView.pin
             .below(of: tagsView)
             .marginTop(16.0.scaled)
-            .bottom(pin.safeArea)
+            .bottom()
             .horizontally(16.0.scaled)
     }
 }
