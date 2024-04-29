@@ -9,6 +9,11 @@ import UIKit
 import FlexLayout
 
 final class TagsView: UIScrollView {
+    
+    //  Да, этот view можно было сделать через коллекцию.
+    //  Но, во-первых, одна коллекция в проекте уже есть, а это всё-таки демо.
+    //  Во-вторых, через флекс это делается проще, быстрее и приятнее. А преимущества коллекции, вроде переиспользуемости ячеек, для такого небольшого и лёгкого элемента как теги, не особо важны.
+    //  Поэтому FlexLayout
         
     private func tagLabel(text: String) -> UILabel {
         let view = UILabel(frame: .zero)
@@ -65,7 +70,8 @@ final class TagsView: UIScrollView {
         backgroundColor = .black
         showsHorizontalScrollIndicator = false
         
-        contentView.pin.height(of: self)
+        contentView.pin
+            .height(of: self)
         
         contentView.flex
             .layout(mode: .adjustWidth)

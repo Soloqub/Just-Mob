@@ -9,6 +9,8 @@ import UIKit
 
 final class ViewController: UIViewController {
     
+    // Привет тебе, @username, читающий этот код :)
+    
     private let imagesProvider = ImagesProvider()
     private let cellTemplate = PhotoCollectionCell()
     
