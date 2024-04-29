@@ -29,9 +29,24 @@
 		92516E6A2BDED17F00C8CB6D /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92516E492BDEC83D00C8CB6D /* UILabel.swift */; };
 		92516E722BDED33C00C8CB6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92516E712BDED33C00C8CB6D /* AppDelegate.swift */; };
 		92516E762BDED33C00C8CB6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92516E752BDED33C00C8CB6D /* ViewController.swift */; };
-		92516E7B2BDED33F00C8CB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92516E7A2BDED33F00C8CB6D /* Assets.xcassets */; };
+		92516E7B2BDED33F00C8CB6D /* InstaAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92516E7A2BDED33F00C8CB6D /* InstaAssets.xcassets */; };
 		92516E7E2BDED33F00C8CB6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92516E7C2BDED33F00C8CB6D /* LaunchScreen.storyboard */; };
 		92516E852BDED46500C8CB6D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92516E842BDED46500C8CB6D /* View.swift */; };
+		92516E942BDEDF3900C8CB6D /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92516E502BDEC84A00C8CB6D /* BannerView.swift */; };
+		92516E952BDEDF5400C8CB6D /* CommonAsserts.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92516E672BDED07600C8CB6D /* CommonAsserts.xcassets */; };
+		92516E962BDEDF6D00C8CB6D /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE752BDC5A5D00190D4F /* UIImage.swift */; };
+		92516E972BDEDF7000C8CB6D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE732BDC552A00190D4F /* UIView.swift */; };
+		92516E982BDEDF7300C8CB6D /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE6E2BDC4CD000190D4F /* UIColor.swift */; };
+		92516E992BDEDF7600C8CB6D /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE6A2BDC49CA00190D4F /* Double.swift */; };
+		92516E9A2BDEDF7E00C8CB6D /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92516E492BDEC83D00C8CB6D /* UILabel.swift */; };
+		92516E9B2BDEDF8200C8CB6D /* FontBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE7A2BDC5F2400190D4F /* FontBuilder.swift */; };
+		92516E9C2BDEDF8700C8CB6D /* BoxTimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E0E7612BDE6DCC0013EF8A /* BoxTimerManager.swift */; };
+		92516E9D2BDEDF8A00C8CB6D /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E82E4C2BDE8DFB00FAACEB /* BoxView.swift */; };
+		925B41062BE00F2400F33555 /* TagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925B41052BE00F2400F33555 /* TagsView.swift */; };
+		925B41092BE0142A00F33555 /* FlexLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 925B41082BE0142A00F33555 /* FlexLayout */; };
+		925B410B2BE01A8C00F33555 /* InstaColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925B410A2BE01A8C00F33555 /* InstaColors.xcassets */; };
+		925B410E2BE0350E00F33555 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929ACE6C2BDC4B6E00190D4F /* Colors.xcassets */; };
+		925B41102BE03CB400F33555 /* InstaUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925B410F2BE03CB400F33555 /* InstaUIColor.swift */; };
 		929ACE542BDC2AB100190D4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE532BDC2AB100190D4F /* AppDelegate.swift */; };
 		929ACE582BDC2AB100190D4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE572BDC2AB100190D4F /* ViewController.swift */; };
 		929ACE5D2BDC2AB400190D4F /* BoxAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929ACE5C2BDC2AB400190D4F /* BoxAssets.xcassets */; };
@@ -44,6 +59,9 @@
 		929ACE742BDC552A00190D4F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE732BDC552A00190D4F /* UIView.swift */; };
 		929ACE762BDC5A5D00190D4F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE752BDC5A5D00190D4F /* UIImage.swift */; };
 		929ACE7B2BDC5F2400190D4F /* FontBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE7A2BDC5F2400190D4F /* FontBuilder.swift */; };
+		92A26C052BDEE04A000DF029 /* PinLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 92A26C042BDEE04A000DF029 /* PinLayout */; };
+		92A26C072BDEF9BA000DF029 /* PhotoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A26C062BDEF9BA000DF029 /* PhotoCollectionCell.swift */; };
+		92A26C092BDEFDA3000DF029 /* InstaUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A26C082BDEFDA3000DF029 /* InstaUIImage.swift */; };
 		92E0E7622BDE6DCC0013EF8A /* BoxTimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E0E7612BDE6DCC0013EF8A /* BoxTimerManager.swift */; };
 		92E82E4D2BDE8DFB00FAACEB /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E82E4C2BDE8DFB00FAACEB /* BoxView.swift */; };
 /* End PBXBuildFile section */
@@ -62,10 +80,13 @@
 		92516E6F2BDED33C00C8CB6D /* Insta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92516E712BDED33C00C8CB6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92516E752BDED33C00C8CB6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		92516E7A2BDED33F00C8CB6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92516E7A2BDED33F00C8CB6D /* InstaAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = InstaAssets.xcassets; sourceTree = "<group>"; };
 		92516E7D2BDED33F00C8CB6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92516E7F2BDED33F00C8CB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92516E842BDED46500C8CB6D /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		925B41052BE00F2400F33555 /* TagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsView.swift; sourceTree = "<group>"; };
+		925B410A2BE01A8C00F33555 /* InstaColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = InstaColors.xcassets; sourceTree = "<group>"; };
+		925B410F2BE03CB400F33555 /* InstaUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaUIColor.swift; sourceTree = "<group>"; };
 		929ACE502BDC2AB100190D4F /* Animated Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		929ACE532BDC2AB100190D4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		929ACE572BDC2AB100190D4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +100,8 @@
 		929ACE732BDC552A00190D4F /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		929ACE752BDC5A5D00190D4F /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		929ACE7A2BDC5F2400190D4F /* FontBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontBuilder.swift; sourceTree = "<group>"; };
+		92A26C062BDEF9BA000DF029 /* PhotoCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionCell.swift; sourceTree = "<group>"; };
+		92A26C082BDEFDA3000DF029 /* InstaUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaUIImage.swift; sourceTree = "<group>"; };
 		92E0E7612BDE6DCC0013EF8A /* BoxTimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxTimerManager.swift; sourceTree = "<group>"; };
 		92E82E4C2BDE8DFB00FAACEB /* BoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +119,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A26C052BDEE04A000DF029 /* PinLayout in Frameworks */,
+				925B41092BE0142A00F33555 /* FlexLayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				92516E672BDED07600C8CB6D /* CommonAsserts.xcassets */,
+				929ACE6C2BDC4B6E00190D4F /* Colors.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -179,8 +205,10 @@
 			isa = PBXGroup;
 			children = (
 				92516E712BDED33C00C8CB6D /* AppDelegate.swift */,
+				92A26C0A2BDEFDB7000DF029 /* Extensions */,
 				92516E832BDED3E600C8CB6D /* Flow */,
-				92516E7A2BDED33F00C8CB6D /* Assets.xcassets */,
+				92516E7A2BDED33F00C8CB6D /* InstaAssets.xcassets */,
+				925B410A2BE01A8C00F33555 /* InstaColors.xcassets */,
 				92516E7C2BDED33F00C8CB6D /* LaunchScreen.storyboard */,
 				92516E7F2BDED33F00C8CB6D /* Info.plist */,
 			);
@@ -192,6 +220,8 @@
 			children = (
 				92516E752BDED33C00C8CB6D /* ViewController.swift */,
 				92516E842BDED46500C8CB6D /* View.swift */,
+				925B41052BE00F2400F33555 /* TagsView.swift */,
+				92A26C062BDEF9BA000DF029 /* PhotoCollectionCell.swift */,
 			);
 			path = Flow;
 			sourceTree = "<group>";
@@ -223,7 +253,6 @@
 				929ACE532BDC2AB100190D4F /* AppDelegate.swift */,
 				92E82E4E2BDE8E4A00FAACEB /* UI Elements */,
 				92E0E7602BDE6D8A0013EF8A /* Flow */,
-				929ACE6C2BDC4B6E00190D4F /* Colors.xcassets */,
 				929ACE5C2BDC2AB400190D4F /* BoxAssets.xcassets */,
 				929ACE5E2BDC2AB400190D4F /* LaunchScreen.storyboard */,
 				929ACE612BDC2AB400190D4F /* Info.plist */,
@@ -249,6 +278,15 @@
 				929ACE7A2BDC5F2400190D4F /* FontBuilder.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		92A26C0A2BDEFDB7000DF029 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				92A26C082BDEFDA3000DF029 /* InstaUIImage.swift */,
+				925B410F2BE03CB400F33555 /* InstaUIColor.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		92E0E7602BDE6D8A0013EF8A /* Flow */ = {
@@ -312,6 +350,10 @@
 			dependencies = (
 			);
 			name = Insta;
+			packageProductDependencies = (
+				92A26C042BDEE04A000DF029 /* PinLayout */,
+				925B41082BE0142A00F33555 /* FlexLayout */,
+			);
 			productName = Insta;
 			productReference = 92516E6F2BDED33C00C8CB6D /* Insta.app */;
 			productType = "com.apple.product-type.application";
@@ -369,6 +411,7 @@
 			mainGroup = 929ACE472BDC2AB100190D4F;
 			packageReferences = (
 				929ACE702BDC4E8F00190D4F /* XCRemoteSwiftPackageReference "PinLayout" */,
+				925B41072BE0142A00F33555 /* XCRemoteSwiftPackageReference "FlexLayout" */,
 			);
 			productRefGroup = 929ACE512BDC2AB100190D4F /* Products */;
 			projectDirPath = "";
@@ -397,8 +440,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				925B410E2BE0350E00F33555 /* Colors.xcassets in Resources */,
+				92516E952BDEDF5400C8CB6D /* CommonAsserts.xcassets in Resources */,
+				925B410B2BE01A8C00F33555 /* InstaColors.xcassets in Resources */,
 				92516E7E2BDED33F00C8CB6D /* LaunchScreen.storyboard in Resources */,
-				92516E7B2BDED33F00C8CB6D /* Assets.xcassets in Resources */,
+				92516E7B2BDED33F00C8CB6D /* InstaAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,9 +485,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92516E942BDEDF3900C8CB6D /* BannerView.swift in Sources */,
+				92516E982BDEDF7300C8CB6D /* UIColor.swift in Sources */,
+				92516E9B2BDEDF8200C8CB6D /* FontBuilder.swift in Sources */,
+				92516E992BDEDF7600C8CB6D /* Double.swift in Sources */,
+				92516E962BDEDF6D00C8CB6D /* UIImage.swift in Sources */,
+				92A26C072BDEF9BA000DF029 /* PhotoCollectionCell.swift in Sources */,
+				92516E9A2BDEDF7E00C8CB6D /* UILabel.swift in Sources */,
 				92516E762BDED33C00C8CB6D /* ViewController.swift in Sources */,
 				92516E722BDED33C00C8CB6D /* AppDelegate.swift in Sources */,
+				925B41102BE03CB400F33555 /* InstaUIColor.swift in Sources */,
+				92516E9D2BDEDF8A00C8CB6D /* BoxView.swift in Sources */,
+				92516E9C2BDEDF8700C8CB6D /* BoxTimerManager.swift in Sources */,
+				925B41062BE00F2400F33555 /* TagsView.swift in Sources */,
+				92516E972BDEDF7000C8CB6D /* UIView.swift in Sources */,
 				92516E852BDED46500C8CB6D /* View.swift in Sources */,
+				92A26C092BDEFDA3000DF029 /* InstaUIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -826,6 +885,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		925B41072BE0142A00F33555 /* XCRemoteSwiftPackageReference "FlexLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/FlexLayout.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.7;
+			};
+		};
 		929ACE702BDC4E8F00190D4F /* XCRemoteSwiftPackageReference "PinLayout" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/layoutBox/PinLayout.git";
@@ -842,7 +909,17 @@
 			package = 929ACE702BDC4E8F00190D4F /* XCRemoteSwiftPackageReference "PinLayout" */;
 			productName = PinLayout;
 		};
+		925B41082BE0142A00F33555 /* FlexLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 925B41072BE0142A00F33555 /* XCRemoteSwiftPackageReference "FlexLayout" */;
+			productName = FlexLayout;
+		};
 		929ACE712BDC4E8F00190D4F /* PinLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 929ACE702BDC4E8F00190D4F /* XCRemoteSwiftPackageReference "PinLayout" */;
+			productName = PinLayout;
+		};
+		92A26C042BDEE04A000DF029 /* PinLayout */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 929ACE702BDC4E8F00190D4F /* XCRemoteSwiftPackageReference "PinLayout" */;
 			productName = PinLayout;

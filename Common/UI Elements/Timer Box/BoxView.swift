@@ -18,16 +18,12 @@ class BoxView: UIView {
         self.addSubview(view)
         return view
     }()
-    
-    
+        
     private lazy var timeLabel: UILabel = {
         let view = UILabel(frame: .zero)
         view.text = ""
         view.textColor = .white
         view.textAlignment = .center
-        view.font = FontBuilder
-            .systemSemibold(size: 22.0)
-            .build
         
         self.addSubview(view)
         return view
@@ -52,17 +48,25 @@ class BoxView: UIView {
     
     private func layout() {
         backgroundColor = .boxContainerBackground
+        setFont()
                         
         boxImageView.pin
             .hCenter()
-            .top(10.0.scaled)
-            .size(CGSize(width: 68.0.scaled, height: 85.0.scaled))
-                
+            .top(6.0%)
+            .width(40.5%)
+            .height(50.6%)
+                        
         timeLabel.pin.below(of: boxImageView)
-            .marginTop(17.0.scaled)
+            .marginTop(10.1%)
             .horizontally().sizeToFit(.width)
         
         self.makeRound()
+    }
+    
+    private func setFont() {
+        timeLabel.font = FontBuilder
+            .systemSemibold(size: 22.0 * bounds.size.height / 168.0.scaled)
+            .build
     }
     
     private func startAnimations() {

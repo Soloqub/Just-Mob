@@ -13,6 +13,16 @@ extension UIView {
         self.layer.masksToBounds = true
     }
     
+    func setCornerRadius(inPercentOfHeight percentOfHeight: CGFloat) {
+        self.layer.cornerRadius = self.frame.size.height * percentOfHeight / 100.0
+        self.layer.masksToBounds = true
+    }
+    
+    func setCornerRadius(radius: CGFloat) {
+        self.layer.cornerRadius = radius
+        self.layer.masksToBounds = true
+    }
+    
     func shakeAnimation() {
         var values: [CGFloat] = [0.0]
         var keyTimes = [0.091]
