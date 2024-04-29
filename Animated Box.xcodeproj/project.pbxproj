@@ -47,6 +47,8 @@
 		925B410B2BE01A8C00F33555 /* InstaColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925B410A2BE01A8C00F33555 /* InstaColors.xcassets */; };
 		925B410E2BE0350E00F33555 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929ACE6C2BDC4B6E00190D4F /* Colors.xcassets */; };
 		925B41102BE03CB400F33555 /* InstaUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925B410F2BE03CB400F33555 /* InstaUIColor.swift */; };
+		925B41122BE0400900F33555 /* ImagesProvider+TagsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925B41112BE0400900F33555 /* ImagesProvider+TagsProvider.swift */; };
+		925B41142BE040A400F33555 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925B41132BE040A400F33555 /* FlowLayout.swift */; };
 		929ACE542BDC2AB100190D4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE532BDC2AB100190D4F /* AppDelegate.swift */; };
 		929ACE582BDC2AB100190D4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929ACE572BDC2AB100190D4F /* ViewController.swift */; };
 		929ACE5D2BDC2AB400190D4F /* BoxAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929ACE5C2BDC2AB400190D4F /* BoxAssets.xcassets */; };
@@ -87,6 +89,8 @@
 		925B41052BE00F2400F33555 /* TagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsView.swift; sourceTree = "<group>"; };
 		925B410A2BE01A8C00F33555 /* InstaColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = InstaColors.xcassets; sourceTree = "<group>"; };
 		925B410F2BE03CB400F33555 /* InstaUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaUIColor.swift; sourceTree = "<group>"; };
+		925B41112BE0400900F33555 /* ImagesProvider+TagsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImagesProvider+TagsProvider.swift"; sourceTree = "<group>"; };
+		925B41132BE040A400F33555 /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
 		929ACE502BDC2AB100190D4F /* Animated Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		929ACE532BDC2AB100190D4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		929ACE572BDC2AB100190D4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -218,12 +222,22 @@
 		92516E832BDED3E600C8CB6D /* Flow */ = {
 			isa = PBXGroup;
 			children = (
+				925B41112BE0400900F33555 /* ImagesProvider+TagsProvider.swift */,
 				92516E752BDED33C00C8CB6D /* ViewController.swift */,
 				92516E842BDED46500C8CB6D /* View.swift */,
 				925B41052BE00F2400F33555 /* TagsView.swift */,
-				92A26C062BDEF9BA000DF029 /* PhotoCollectionCell.swift */,
+				925B41152BE040D600F33555 /* Collection */,
 			);
 			path = Flow;
+			sourceTree = "<group>";
+		};
+		925B41152BE040D600F33555 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				925B41132BE040A400F33555 /* FlowLayout.swift */,
+				92A26C062BDEF9BA000DF029 /* PhotoCollectionCell.swift */,
+			);
+			path = Collection;
 			sourceTree = "<group>";
 		};
 		929ACE472BDC2AB100190D4F = {
@@ -496,7 +510,9 @@
 				92516E722BDED33C00C8CB6D /* AppDelegate.swift in Sources */,
 				925B41102BE03CB400F33555 /* InstaUIColor.swift in Sources */,
 				92516E9D2BDEDF8A00C8CB6D /* BoxView.swift in Sources */,
+				925B41122BE0400900F33555 /* ImagesProvider+TagsProvider.swift in Sources */,
 				92516E9C2BDEDF8700C8CB6D /* BoxTimerManager.swift in Sources */,
+				925B41142BE040A400F33555 /* FlowLayout.swift in Sources */,
 				925B41062BE00F2400F33555 /* TagsView.swift in Sources */,
 				92516E972BDEDF7000C8CB6D /* UIView.swift in Sources */,
 				92516E852BDED46500C8CB6D /* View.swift in Sources */,

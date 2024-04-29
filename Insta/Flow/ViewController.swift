@@ -43,7 +43,8 @@ final class ViewController: UIViewController {
     }
 }
 
-extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+extension ViewController: UICollectionViewDataSource {
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
         imagesProvider.images.count
@@ -55,61 +56,17 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
         cell.configure(image: imagesProvider.images[indexPath.item])
         return cell
     }
-        
+}
+
+extension ViewController: UICollectionViewDelegateFlowLayout {
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        let width = collectionView.bounds.width / 2 - 4.0.scaled
         let image = imagesProvider.images[indexPath.item]
+        
+        let width = collectionView.bounds.width / 2 - 4.0.scaled
         let height = width * (image.size.height / image.size.width)
                 
         return CGSize(width: width, height: height)
     }
 }
-
-final class ImagesProvider {
-    let images: [UIImage] = [.photo1, .photo2, .photo3, .photo4, .photo1, .photo2, .photo3, .photo4]
-}
-
-final class TagsProvider {
-    let tags: [String] = ["#Осень", "#Портрет", "#Insta-стиль", "#Люди", "#Природа", "#Путешествие", "#Жизнь", "#Cчастье", "#Фотодня"]
-}
-
-
-final class FlowLayout: UICollectionViewFlowLayout {
-
-    required init(minimumInteritemSpacing: CGFloat = 0, minimumLineSpacing: CGFloat = 0, sectionInset: UIEdgeInsets = .zero) {
-        super.init()
-
-        estimatedItemSize = UICollectionViewFlowLayout.automaticSize
-        self.minimumInteritemSpacing = minimumInteritemSpacing
-        self.minimumLineSpacing = minimumLineSpacing
-        self.sectionInset = sectionInset
-        sectionInsetReference = .fromSafeArea
-    }
-
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-
-    override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
-        
-        let layoutAttributes = super.layoutAttributesForElements(in: rect)!.map { $0.copy() as! UICollectionViewLayoutAttributes }
-        guard scrollDirection == .vertical else { return layoutAttributes }
-
-        let cellAttributes = layoutAttributes.filter{ $0.representedElementCategory == .cell }
-
-        for (_, attributes) in Dictionary(grouping: cellAttributes,
-                                          by: { ($0.center.x / 10).rounded(.up) * 10 }) {
-            
-            var topInset = sectionInset.top
-
-            for attribute in attributes {
-                attribute.frame.origin.y = topInset
-                topInset = attribute.frame.maxY + minimumInteritemSpacing
-            }
-        }
-
-        return layoutAttributes
-    }
-}
-
