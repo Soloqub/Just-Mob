@@ -28,7 +28,7 @@ extension UIView {
         var keyTimes = [0.091]
         
         let maxAngle = -CGFloat.pi * 0.04
-        let minAngle = -CGFloat.pi * 0.11
+        let minAngle = -CGFloat.pi * 0.14
         
         let iterationValues = [0.0, maxAngle, minAngle, maxAngle, minAngle, maxAngle, 0.0]
         let iterationsTimeIntervals = [0.129, 0.017, 0.021, 0.029, 0.021, 0.021, 0.021]
