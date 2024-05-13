@@ -9,12 +9,20 @@ import Foundation
 
 class BoxTimerManager {
     private var countdownTimer: Timer?
+    
+    private let queue = DispatchQueue(label: "Timer")
+    private let mainQueue = DispatchQueue.main
+    
     private var timeLeft: Int {
         didSet {
             if timeLeft >= 0 {
-                updated(timeLeft)
+                mainQueue.async {
+                    self.updated(self.timeLeft)
+                }
             } else {
-                timerDidFinish()
+                mainQueue.async {
+                    self.timerDidFinish()
+                }
                 countdownTimer?.invalidate()
             }
         }
@@ -27,10 +35,22 @@ class BoxTimerManager {
         self.updated = updated
         self.timerDidFinish = timerDidFinish
         
-        countdownTimer = Timer.scheduledTimer(timeInterval: 1,
-                                              target: self,
-                                              selector: #selector(updateTimer),
-                                              userInfo: nil, repeats: true)
+        initTimer()
+    }
+    
+    private func initTimer() {
+        queue.async {
+            let timer = Timer.scheduledTimer(timeInterval: 1,
+                                                       target: self,
+                                                       selector: #selector(self.updateTimer),
+                                                       userInfo: nil, repeats: true)
+            defer {
+                self.countdownTimer = timer
+            }
+
+            RunLoop.current.add(timer, forMode: .common)
+            RunLoop.current.run()
+        }
     }
 
     @objc func updateTimer() {
